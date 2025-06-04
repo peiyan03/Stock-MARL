@@ -82,7 +82,7 @@ simulation/Trade_History/trade_history_epX.csv
 
 If this project helps your research or education, please cite:
 
-**Zou, P. & Siebers, P. O.** (2025). *StockMARL: A Novel Multi-Agent Reinforcement Learning System to Dynamically Improve Trading Strategies*. EMSS 2025.
+- N/A
 
 ---
 
