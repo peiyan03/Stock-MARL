@@ -50,3 +50,45 @@ The implementation leverages:
 - Final configuration tested across **700×252 trading days** in simulation.
 
 ---
+## Run the Simulation-Training 
+
+1. **Train the RL agent**  
+```bash
+python main.py
+```
+
+2. **Configure agent population in `main.py`**  
+```python
+agent_counts = {
+    'RandomBuyerAgent': 5,
+    'DayTraderAgent': 7,
+    'MomentumTraderAgent': 6,
+    'RiskTraderAgent': 6,
+    'RiskAverseTraderAgent': 7,
+    'HerdingTraderAgent': 3,
+    'ReinforcementAgent': 1,
+}
+```
+
+3. **View log files**  
+All trade histories will be saved under:  
+```
+simulation/Trade_History/trade_history_epX.csv
+```
+
+---
+
+## Citation
+
+If this project helps your research or education, please cite:
+
+**Zou, P. & Siebers, P. O.** (2025). *StockMARL: A Novel Multi-Agent Reinforcement Learning System to Dynamically Improve Trading Strategies*. EMSS 2025.
+
+---
+
+## Contact
+
+**Peiyan Zou** - peiyanzou003@outlook.com
+
+**Dr Peer-Olaf Siebers** - peer-olaf.siebers@nottingham.ac.uk
+
