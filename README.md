@@ -6,11 +6,11 @@
 **Date:** April 2025  
 
 ---
+![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)
 
 ## Project Overview
 
-**StockMARL** is a novel hybrid framework that integrates **Multi-Agent Simulation (MAS)** with **Reinforcement Learning (RL)** to improve financial market forecasting and trading decision-making.  
-The system allows a Deep Q-Network (DQN)-controlled RL agent to learn trading strategies by observing the behaviours and performances of diverse **rule-based reactive agents**, rather than relying solely on historical price data.
+**StockMARL** is the system enables a Deep Q-Network (DQN)-controlled RL agent to learn trading strategies by observing the behaviors and performance of various rule-based reactive agents, rather than relying solely on historical price data.
 
 The implementation leverages:
 - **AgentPy** for agent-based simulation,
@@ -19,6 +19,22 @@ The implementation leverages:
 
 ---
 
+## Prerequisites
+
+- Python 3.8+
+- pip
+
+---
+
+## Table of Contents
+
+- [System Features](#system-features)
+- [How It Works](#how-it-works)
+- [Evaluation Highlights](#evaluation-highlights)
+- [Run the Simulation-Training](#run-the-simulation-training)
+- [Citation](#citation)
+- [Contact](#contact)
+---
 ## System Features
 
 - **Diverse Reactive Agents**: Includes Random Buyers, Day Traders, Momentum Traders, Risk/Risk-Averse Traders, and Herding Traders.
