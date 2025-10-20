@@ -98,7 +98,8 @@ simulation/Trade_History/trade_history_epX.csv
 
 If this project helps your research or education, please cite:
 
-- N/A
+- [Paper](https://nottingham-repository.worktribe.com/output/53539884/stockmarl-a-novel-multi-agent-reinforcement-learning-system-to-dynamically-improve-trading-strategies)
+- [Youtube](https://www.youtube.com/watch?v=mUaCRxeffls)
 
 ---
 
